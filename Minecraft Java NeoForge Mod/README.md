@@ -15,9 +15,9 @@
 ### 3. 將 Mod 放入 `mods` 資料夾
 
 1.  開啟您的 Minecraft 遊戲資料夾。通常的路徑如下：
-    *   **Windows:** 按下 `Win + R`，輸入 `%appdata%\.minecraft`，然後按 Enter。
-    *   **macOS:** 在 Finder 中，按下 `Shift + Command + G`，輸入 `~/Library/Application Support/minecraft`，然後按 Enter。
-    *   **Linux:** 在您的家目錄中找到 `.minecraft` 資料夾 (通常是隱藏的，按 `Ctrl + H` 顯示)。
+    - **Windows:** 按下 `Win + R`，輸入 `%appdata%\.minecraft`，然後按 Enter。
+    - **macOS:** 在 Finder 中，按下 `Shift + Command + G`，輸入 `~/Library/Application Support/minecraft`，然後按 Enter。
+    - **Linux:** 在您的家目錄中找到 `.minecraft` 資料夾 (通常是隱藏的，按 `Ctrl + H` 顯示)。
 2.  在 `.minecraft` 資料夾中，找到或創建一個名為 `mods` 的資料夾。
 3.  將您在步驟 2 中下載的 Mod `.jar` 檔案複製或移動到這個 `mods` 資料夾中。
 
@@ -30,8 +30,12 @@
 
 ### 疑難排解
 
-*   **遊戲崩潰或 Mod 未載入：**
-    *   檢查 Mod 版本是否與 Minecraft 版本和 NeoForge 版本相容。
-    *   確保您已安裝所有必要的前置 Mod (如果 Mod 說明中有提到)。
-    *   檢查 `.minecraft/logs` 資料夾中的最新日誌 (`latest.log`) 或崩潰報告 (`crash-reports` 資料夾) 以獲取錯誤訊息。
-*   **找不到 `mods` 資料夾：** 如果 `mods` 資料夾不存在，您可以手動創建它。
+- **遊戲崩潰或 Mod 未載入：**
+  - 檢查 Mod 版本是否與 Minecraft 版本和 NeoForge 版本相容。
+  - 確保您已安裝所有必要的前置 Mod (如果 Mod 說明中有提到)。
+  - 檢查 `.minecraft/logs` 資料夾中的最新日誌 (`latest.log`) 或崩潰報告 (`crash-reports` 資料夾) 以獲取錯誤訊息。
+- **找不到 `mods` 資料夾：** 如果 `mods` 資料夾不存在，您可以手動創建它。
+
+### 參考資料
+
+- 關於 `Xaeros_Minimap_25.2.0_NeoForge_1.21-tw.jar` 檔案，其參考來源或說明可見於：[https://grant88.pixnet.net/blog/post/44681823](https://grant88.pixnet.net/blog/post/44681823)
