@@ -28,14 +28,14 @@
 3.  點擊 "Play" (開始遊戲)。
 4.  如果一切順利，Mod 將會被載入。您可以在遊戲的主選單或特定介面中檢查 Mod 是否已成功安裝 (通常 Mod 列表會顯示已載入的 Mod)。
 
-### 疑難排解
+### ❓ 疑難排解
 
-- **遊戲崩潰或 Mod 未載入：**
+- **💥 遊戲崩潰或 Mod 未載入：**
   - 檢查 Mod 版本是否與 Minecraft 版本和 NeoForge 版本相容。
   - 確保您已安裝所有必要的前置 Mod (如果 Mod 說明中有提到)。
   - 檢查 `.minecraft/logs` 資料夾中的最新日誌 (`latest.log`) 或崩潰報告 (`crash-reports` 資料夾) 以獲取錯誤訊息。
-- **找不到 `mods` 資料夾：** 如果 `mods` 資料夾不存在，您可以手動創建它。
+- **📂 找不到 `mods` 資料夾：** 如果 `mods` 資料夾不存在，您可以手動創建它。
 
-### 參考資料
+### 🔗 參考資料
 
 - 關於 `Xaeros_Minimap_25.2.0_NeoForge_1.21-tw.jar` 檔案，其參考來源或說明可見於：[https://grant88.pixnet.net/blog/post/44681823](https://grant88.pixnet.net/blog/post/44681823)
