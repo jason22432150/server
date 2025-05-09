@@ -15,15 +15,17 @@
 *   **Fabric API:** 需要 (詳見下方「🔗 推薦 Mod/插件」部分)
 *   **(可選)** 其他相依性 Mod：[如果您的 Mod 需要其他 Mod 作為前置，請在此列出，或參考下方推薦]
 
-## � 推薦 Mod/插件 (Recommended Mods/Plugins)
+## 🔗 推薦 Mod/插件 (Recommended Mods/Plugins)
 
 以下是一些推薦與此 Mod 一同使用的 Fabric Mod/插件：
 
 *   **Fabric API:** [https://modrinth.com/mod/fabric-api?version=1.21](https://modrinth.com/mod/fabric-api?version=1.21) (通常為必需)
 *   **Mod Menu:** [https://modrinth.com/mod/modmenu?loader=fabric&version=1.21](https://modrinth.com/mod/modmenu?loader=fabric&version=1.21) - 方便在遊戲中查看已安裝的 Mod 列表。
 *   **Inventory Profiles Next:** [https://modrinth.com/mod/inventory-profiles-next?version=1.21&loader=fabric](https://modrinth.com/mod/inventory-profiles-next?version=1.21&loader=fabric) - 強大的物品欄管理工具。
+    *   **LibIPN (Inventory Profiles Next 的前置):** [https://modrinth.com/mod/libipn](https://modrinth.com/mod/libipn)
+*   **Fabric Language Kotlin:** [https://modrinth.com/mod/fabric-language-kotlin](https://modrinth.com/mod/fabric-language-kotlin) - 如果 Mod 是用 Kotlin 撰寫的，則需要此項目。
 
-## �🛠️ 安裝教學 (Installation)
+## 🛠️ 安裝教學 (Installation)
 
 ### 1. 安裝 Fabric Mod 載入器
 
@@ -34,9 +36,8 @@
 ### 2. 下載 Mod
 
 1.  從 [您的 Mod 下載連結，例如：CurseForge, Modrinth, GitHub Releases] 下載您的 Mod 的 `.jar` 檔案。
-2.  從上方「🔗 推薦 Mod/插件」部分下載 Fabric API。
-3.  **(可選)** 從上方「🔗 推薦 Mod/插件」部分下載您想要的其他 Mod。
-4.  **請確保下載的所有 Mod 版本與您的 Minecraft 版本 (1.21) 以及您安裝的 Fabric Loader 版本相容。**
+2.  從上方「🔗 推薦 Mod/插件」部分下載 Fabric API 以及其他您需要的 Mod (例如 Mod Menu, Inventory Profiles Next 及其前置 LibIPN, Fabric Language Kotlin 等)。
+3.  **請確保下載的所有 Mod 版本與您的 Minecraft 版本 (1.21) 以及您安裝的 Fabric Loader 版本相容。**
 
 ### 3. 將 Mod 放入 `mods` 資料夾
 
@@ -64,6 +65,7 @@
 *   **💥 遊戲崩潰或 Mod 未載入：**
     *   檢查所有 Mod 版本是否與 Minecraft 版本 (1.21) 和 Fabric Loader/API 版本相容。
     *   確保您已安裝 Fabric API (可從上方「🔗 推薦 Mod/插件」部分獲取)。
+    *   如果 Mod 需要特定前置 (例如 Inventory Profiles Next 需要 LibIPN)，請確保已安裝。
     *   檢查 `.minecraft/logs` 資料夾中的最新日誌 (`latest.log`) 或崩潰報告 (`crash-reports` 資料夾) 以獲取錯誤訊息。
 *   **📂 找不到 `mods` 資料夾：** 如果 `mods` 資料夾不存在，您可以手動創建它。
 
@@ -74,3 +76,7 @@
 ## 📜 授權條款 (License - 可選)
 
 這個 Mod 使用 [在此填寫授權條款，例如：MIT License, Apache 2.0 等] 授權。詳情請見 [LICENSE](LICENSE) 檔案 (如果有的話)。
+
+## 🔗 參考資料 (References)
+
+*   關於 Xaero's Minimap (雖然此 README 主要針對 Fabric，但此連結可能提供一般 Mod 安裝或使用的參考)：[https://grant88.pixnet.net/blog/post/44681823](https://grant88.pixnet.net/blog/post/44681823)
