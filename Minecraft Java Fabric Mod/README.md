@@ -24,7 +24,7 @@
 - **Inventory Profiles Next:** [https://modrinth.com/mod/inventory-profiles-next?version=1.21&loader=fabric](https://modrinth.com/mod/inventory-profiles-next?version=1.21&loader=fabric) - 強大的物品欄管理工具。
   - **LibIPN (Inventory Profiles Next 的前置):** [https://modrinth.com/mod/libipn?version=1.21&loader=fabric](https://modrinth.com/mod/libipn?version=1.21&loader=fabric)
 - **Fabric Language Kotlin:** [https://modrinth.com/mod/fabric-language-kotlin](https://modrinth.com/mod/fabric-language-kotlin) - 如果 Mod 是用 Kotlin 撰寫的，則需要此項目。
-- **X+ Autofish:** [https://modrinth.com/mod/x+-autofish?version=1.21&loader=fabric](https://modrinth.com/mod/x+-autofish?version=1.21&loader=fabric) - 自動釣魚 Mod。
+- **X+ Autofish:** [https://modrinth.com/mod/x+-autofish/version/FBsLJSK1](https://modrinth.com/mod/x+-autofish/version/FBsLJSK1) - 自動釣魚 Mod。
 - **Cloth Config API (Fabric):** [https://modrinth.com/mod/cloth-config?version=1.21&loader=fabric](https://modrinth.com/mod/cloth-config?version=1.21&loader=fabric) - 許多 Mod 用於設定畫面的 API。
 
 ## 🛠️ 安裝教學 (Installation)
